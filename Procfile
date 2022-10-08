@@ -1,2 +1,1 @@
-web: python trainer.py
-worker: python trainer.py 
+web: gunicorn wsgi:app
